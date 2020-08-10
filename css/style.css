@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body {
+    box-sizing: border-box;
+}
+.nav-btn {
+    background: #645B5B;
+    color: white;
+    border-radius: 0;
+}
+
+header .land {
+    padding: 20px;
+    background-image: url(../images/land.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+}
+
+.land > .cta-btn {
+    background: #645B5B;
+    color: white;
+    border-radius: 0;
+}
+
+
+
+/* media queries */
+
+
+
