@@ -4,6 +4,7 @@
 }
 html,body {
     box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .nav-btn {
     background: #645B5B;
@@ -21,15 +22,76 @@ header .land {
     text-align: center;
 }
 
-.land > .cta-btn {
+.land-text > .cta-btn {
     background: #645B5B;
     color: white;
     border-radius: 0;
+    padding: 5px 20px 5px 20px;
 }
 
+.section-header {
+    background: #979797;
+    padding: 10px;
+    text-align: center;
+    width: fit-content;
+    margin: 10px auto;
+    font-size: 1rem;
+}
 
+.about-us h2 {
+    
+    text-align: center;
+}
+
+.wrapper {
+    background: #EFEFEF;
+    margin: 50px 0px 30px 0px;
+    
+}
+
+.about-p {
+    line-height: 34px;
+    font-weight: normal;
+    color: #343434;
+}
+
+.about-img > img {
+    position: relative;
+    bottom: 30px;
+
+}
+.about-text {
+    padding: 20px;
+}
+.about-text > hr {
+    width: 60px;
+    border: 1.5px solid #4F4F4F
+}
+
+section {
+    margin: 30px 0px 30px 0px;
+}
+
+.how-section h2 {
+    
+    text-align: center;
+}
 
 /* media queries */
+
+@media screen and (min-width: 768px) {
+   header > .land {
+       text-align: left;
+       height: 70vh;
+       
+
+   }
+   .land-text{
+    position: relative;
+    top: 121px;
+    left: 22px;
+   }
+}
 
 
 
