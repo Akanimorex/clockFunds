@@ -4,7 +4,7 @@
 }
 html,body {
     box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Open Sans', sans-serif;
 }
 .nav-btn {
     background: #645B5B;
@@ -45,7 +45,7 @@ header .land {
 
 .wrapper {
     background: #EFEFEF;
-    margin: 50px 0px 30px 0px;
+    margin: 70px 0px 30px 0px;
     
 }
 
@@ -69,13 +69,82 @@ header .land {
 }
 
 section {
-    margin: 30px 0px 30px 0px;
+    margin: 58px 0px 30px 0px;
 }
-
+/* .how-section > .col-md-4{
+    padding: 20px;
+    background: red !important;
+} */
 .how-section h2 {
     
     text-align: center;
+    margin: 27px;
+    
 }
+
+
+.get-started {
+    background-image: url(../images/business.jpg);
+    background-size: cover;
+    padding: 50px;
+    color: white;
+    background-blend-mode: darken;
+    text-align: center;
+}
+
+.cta-get-btn {
+    background: #645B5B;
+    color: white;
+    border-radius: 0;
+    padding: 5px 20px 5px 20px;
+    margin: 10px auto;
+}
+
+footer {
+    margin-top: 3%;
+    padding: 20px;
+}
+
+.foot-text {
+    font-weight: bold;
+    color: #60281C;
+}
+
+.foot-links p {
+    color: #60281C;
+}
+.foot-links {
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+.foot-links a {
+    color: black;
+}
+.foot-form input[type="email"]{
+    padding: 10px;
+    border:1px solid #60281C ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* media queries */
 
@@ -93,5 +162,8 @@ section {
    }
 }
 
-
-
+@media screen and (max-width: 768px) {
+    footer {
+        text-align: center;
+    }
+}
