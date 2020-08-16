@@ -163,6 +163,12 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+    
+
+    header > .land {
+        text-align: left;
+        height: 50vh;
+    }
     footer {
         text-align: center;
     }
