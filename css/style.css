@@ -82,6 +82,14 @@ section {
     
 }
 
+.question-wrap{
+    padding-top: 50px ;
+    margin: 30px 0px 30px 0px;
+}
+.questions{
+    margin: 30px 0px 30px 0px;
+}
+
 
 .get-started {
     background-image: url(../images/business.jpg);
@@ -99,6 +107,10 @@ section {
     padding: 5px 20px 5px 20px;
     margin: 10px auto;
 }
+
+
+
+/* footer */
 
 footer {
     margin-top: 3%;
@@ -146,6 +158,7 @@ footer {
 
 
 
+
 /* media queries */
 
 @media screen and (min-width: 768px) {
@@ -167,9 +180,11 @@ footer {
 
     header > .land {
         text-align: left;
-        height: 50vh;
+        min-height: 50vh;
+        font-size:.9rem;
     }
     footer {
         text-align: center;
     }
+    
 }
