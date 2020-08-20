@@ -108,6 +108,14 @@ section {
     margin: 10px auto;
 }
 
+.contact-form > .form-control{
+    margin-top: 10px;
+    background: #e1e1e1;
+}
+.contact-img {
+    box-shadow: 3px -2px #656662;
+}
+
 
 
 /* footer */
