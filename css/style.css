@@ -177,7 +177,7 @@ footer {
     width: 50%;
     padding: 40px;
 }
-.form-form h3,p {
+.form-form {
     text-align: center;
     color: #645B5B;;
 }
@@ -204,6 +204,11 @@ footer {
     border-radius: 0;
     margin-left: 30px;
     
+}
+
+.btn-sign :hover{
+    color:white;
+    background: #60281C;
 }
 
 

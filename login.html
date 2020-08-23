@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up now</title>
+    <title>Sign In </title>
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -64,20 +64,26 @@
                     </ul>
                     <div class="container text-center">
                         <h3>Welcome</h3>
-                        <p>Please Create an Account to Continue</p>
+                        <p>Please Sign in to continue</p>
                         <div class="input-fields" >
-                            <form action="#" id="register-form" class="form-group" method="POST">
+                            <form action="#"  class="form-group" method="POST">
                                 <input type="email" placeholder="Email" class="form-control">
-                                <input type="password" id="password" placeholder="Password" class="form-control">
-                                <input type="password" onChange="run()" placeholder="Confirm Password" class="form-control">
-                                <span id="password-msg"></span>
+                                <input type="password" placeholder="Password" class="form-control">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <input class="" type="checkbox" name="remember" id="remember" >
+                                    </div>
+                                    <div class="col-md-6">
+                                        <a href="http://">Forgotten Password</a>
+                                    </div>
+                                </div>                             
                                 <button class="btn btn-sign" type="submit">Create Account</button>
                             </form>
                         </div>
                         <p> By Signing Up You Agree to the terms and Conditions of This Platform</p>
                         
                     </div>
-                    <p>Already have an account? <a href="login.html">Sign in </a></p>
+                    <p>Don't have an account? <a href="register.html">Sign Up </a></p>
                 </div>
             </div>
         </div>
