@@ -14,7 +14,7 @@ html,body {
 
 header .land {
     padding: 20px;
-    background-image: url(../images/land.svg);
+    background-image: url(../images/land.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -92,7 +92,7 @@ section {
 
 
 .get-started {
-    background-image: url(../images/business.jpg);
+    background-image: url(../images/business_.jpg);
     background-size: cover;
     padding: 50px;
     color: white;
