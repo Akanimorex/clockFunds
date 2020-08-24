@@ -1,27 +1,19 @@
-// (() =>{
-//     console.log("anonymous")
-//    let password = document.getElementById("password");
-//    let confirmPassword = document.getElementById("confirm-pass");
-
-//    confirmPassword.addEventListener("change",()=>{
-//        console.log("change")
-//     if(password.value === confirmPassword.value ) {
-//         document.getElementById("password-msg").textContent="Password Matched!";
-//     } 
-//    })
+(() =>{
+   let password = document.querySelector("#password");
+   let confirmPassword = document.querySelector("#conPassword");
+   let passwordMsg = document.querySelector("#password-msg");
+  
+    confirmPassword.addEventListener('input',()=>{
+        if(password.value === confirmPassword.value){
+            passwordMsg.textContent="Correct Match!"
+            passwordMsg.style.color="green"
+        }
+        else{
+            passwordMsg.textContent="Not Matching!";
+            passwordMsg.style.color="red"
+        }
+    })
+   })()
    
-// }
-
-// )()
 
 
-const run =()=>{
-    console.log("run")
-}
-
-let password = document.getElementById("password");
-let confirmPassword = document.querySelector("#confirm-pass");
-
-confirmPassword.addEventListener("change",()=>{
-    console.log("peace")
-})
