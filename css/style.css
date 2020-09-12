@@ -13,12 +13,13 @@ html,body {
 }
 
 header .land {
-    padding: 20px;
-    background-image: url(../images/land.png);
-    background-size: cover;
+    /* padding: 20px; */
+    /* background-image: url(../images/land.jpg); */
+    background-size: contain;
+    background-position: center right;
     background-repeat: no-repeat;
     /* height: 50vh; */
-    color: #fff;
+    color: #000;
     text-align: center;
 }
 
