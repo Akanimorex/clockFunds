@@ -83,11 +83,16 @@ html,body {
 }
   
   .nav-link:hover {
-    color:#ff2500 !important ;
+    color:#afa6a6 !important ;
   }
 
   .nav-list {
     margin: 30px 0;
+  }
+
+  .fa-sign-out {
+    font-size:50px;
+    color: #afa6a6;
   }
   
   
